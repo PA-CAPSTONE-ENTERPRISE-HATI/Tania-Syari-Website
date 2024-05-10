@@ -1,0 +1,133 @@
+body {
+  background-color: #ffebe4;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  background-color: #e7a891;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  margin: 0;
+}
+
+table {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+table,
+th,
+td {
+  border: 1px solid #e7a891;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background-color: #e7a891;
+  color: #fff;
+}
+
+tr:nth-child(even) {
+  background-color: white;
+}
+
+tr:nth-child(odd) {
+  background-color: white;
+}
+
+tr:hover {
+  background-color: #dfa289;
+  color: #fff;
+}
+
+.back {
+  background-color: #e7a891;
+  color: white;
+  border-radius: 5px;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.back:hover {
+  align-items: left;
+  color: white;
+  background-color: #4a4a4a;
+}
+
+.btn-add-product {
+  margin-top: 20px;
+}
+
+.title-container {
+  position: relative;
+}
+
+.title-container a {
+  position: absolute;
+  left: 30px; /* Atur jarak dari kiri */
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.back-button a {
+  font-size: 24px;
+  color: white;
+  text-decoration: none;
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.form-group label {
+  font-weight: bold;
+}
+
+.form-control {
+  width: 100%;
+  padding: 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.form-control:focus {
+  border-color: #80bdff;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.btn {
+  padding: 0.75rem 3rem;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #fff;
+  background-color: #e7a891;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.btn-group {
+  display: flex;
+  flex-direction: row; /* Menyusun tombol secara horizontal */
+  justify-content: center; /* Pusatkan tombol di dalam div */
+  gap: 0.5rem; /* Jarak antara tombol */
+}

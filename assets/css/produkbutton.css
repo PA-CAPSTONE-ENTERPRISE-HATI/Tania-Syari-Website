@@ -1,0 +1,114 @@
+body {
+    background-color: #ffebe4;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    background-color: #e7a891;
+    color: #FFF;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #FFF;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+table, th, td {
+    border: 1px solid #e7a891;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #e7a891;
+    color: #FFF;
+}
+
+tr:nth-child(even) {
+    background-color: white;
+}
+
+tr:nth-child(odd) {
+    background-color: white;
+}
+
+tr:hover {
+    background-color: #dfa289;
+    color: #FFF;
+}
+
+.back{
+    background-color: #e7a891;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.back:hover{
+    align-items: left;
+    color: white;
+    background-color: #4a4a4a;
+}
+
+.title-container {
+    position: relative;
+}
+
+.title-container a {
+    position: absolute;
+    left: 30px; /* Atur jarak dari kiri */
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.back-button a {
+    font-size: 24px; /* Ubah ukuran ikon */
+    color: white;
+    text-decoration: none;
+}
+
+.btn {
+    padding: 0.75rem 3rem;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+    background-color: #2a79b9;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: #e7a891;
+}
+
+.btn-custom {
+    padding: 8px 16px;
+    font-size: 14px;
+}
+
+.btn-custom2 {
+    padding: 0.75rem 3rem;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #0a0a0a;
+    background-color: #f1eca9;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    padding: 8px 16px;
+    font-size: 14px; 
+}
